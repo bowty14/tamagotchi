@@ -5,7 +5,7 @@ describe("Tama", () => {
   let tama;
   beforeEach(() => {
     tama = new Tama();
-    tama.setSleep();
+    // tama.setSleep();
     tama.setHunger();
     tama.setAttention();
     tama.setPlay();

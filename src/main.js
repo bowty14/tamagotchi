@@ -8,7 +8,10 @@ $(document).ready(function () {
     event.preventDefault();
     let tama = new Tama();
     tama.setSleep();
-    console.log(tama.setSleep());
+    tama.setHunger();
+    tama.setAttention();
+    tama.setPlay();
     console.log(tama);
+ 
   });
 });
