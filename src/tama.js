@@ -1,3 +1,4 @@
+
 export class Tama {
   constructor(){
     this.sleepLvl = 0;
@@ -10,39 +11,44 @@ export class Tama {
     setInterval(() => {
       this.sleepLvl++;
     }, 1000);
-  };
+    
+  }
   resetS() {
-    let sleep = this.sleepLvl;
-    return sleep;
+    this.sleepLvl = 0;
+    // let sleep = this.sleepLvl;
+    // return sleep;
   }
   setHunger() {
     setInterval(() => {
       this.hungerLvl--;
     }, 1000);
-  };
+  }
   resetH() {
-    let hunger = this.hungerLvl;
-    return hunger;
+    this.hungerLvl = 20;
+    // let hunger = this.hungerLvl;
+    // return hunger;
   }
   setAttention() {
     setInterval(() => {
       this.attentionLvl--;
     },1000);
-  };
+  }
   resetA() {
-    let att = this.attentionLvl;
-    return att;
+    this.attentionLvl = 20;
+    // let att = this.attentionLvl;
+    // return att;
   }
   setPlay() {
     setInterval(() => {
       this.playLvl--;
     },1000);
-  };
-  resetP() {
-    let play = this.playLvl;
-    return play;
   }
-};
+  resetP() {
+    this.playLvl = 20;
+    // let play = this.playLvl;
+    // return play;
+  }
+}
 
 
 // var foodTimer = new Food(function() {
