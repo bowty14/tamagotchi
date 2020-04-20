@@ -15,4 +15,10 @@ export class Tama {
       this.hungerLvl--;
     }, 1000);
   };
+  setAttention() {
+    setInterval(() => {
+      this.attentionLvl--;
+    },1000);
+  } 
 };
+
