@@ -1,10 +1,11 @@
 import { Tama } from './../src/tama.js';
 
 describe("Tama", () => {
-  
+  jest.useFakeTimers();
   let tama;
   beforeEach(() => {
-    tama = new Tama ();
+    tama = new Tama();
+    tama.setSleep();
 
   })
     test("there is a tamagotchi object with multiple properties", () => {
@@ -14,5 +15,9 @@ describe("Tama", () => {
     expect(tama.hungerLvl).toEqual(20);
 //   tama = new Tama ();
     })
+  test('sleepLvl should be 3 after 3001 milliseconds', () => {
+    jest.advanceTimersByTime(3001);
+    expect(tama.sleepLvl).toEqual(3);
   });
+});
   

@@ -5,5 +5,9 @@ export class Tama {
     this.playLvl = 20;
     this.hungerLvl = 20;
   }
-
-}
+  setSleep() {
+    setInterval(() => {
+      this.sleepLvl++;
+    }, 1000);
+  };
+};
