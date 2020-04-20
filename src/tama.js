@@ -13,33 +13,33 @@ export class Tama {
     }, 1000);
     
   }
-  // resetS() {
-  //   this.sleepLvl = 0;
-  // }
+  resetS() {
+    this.sleepLvl = 0;
+  }
   setHunger() {
     setInterval(() => {
       this.hungerLvl--;
     }, 1000);
   }
-  // resetH() {
-  //   this.hungerLvl = 20;
-  // }
+  resetH() {
+    this.hungerLvl = 20;
+  }
   setAttention() {
     setInterval(() => {
       this.attentionLvl--;
     },1000);
   }
-  // resetA() {
-  //   this.attentionLvl = 20;
-  // }
+  resetA() {
+    this.attentionLvl = 20;
+  }
   setPlay() {
     setInterval(() => {
       this.playLvl--;
     },1000);
   }
-  // resetP() {
-  //   this.playLvl = 20;
-  // }
+  resetP() {
+    this.playLvl = 20;
+  }
 }
 
 
