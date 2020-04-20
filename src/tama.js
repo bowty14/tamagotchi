@@ -10,4 +10,9 @@ export class Tama {
       this.sleepLvl++;
     }, 1000);
   };
+  setHunger() {
+    setInterval(() => {
+      this.hungerLvl--;
+    }, 1000);
+  };
 };

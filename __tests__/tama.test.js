@@ -6,6 +6,7 @@ describe("Tama", () => {
   beforeEach(() => {
     tama = new Tama();
     tama.setSleep();
+    tama.setHunger();
 
   })
     test("there is a tamagotchi object with multiple properties", () => {
@@ -18,6 +19,10 @@ describe("Tama", () => {
   test('sleepLvl should be 3 after 3001 milliseconds', () => {
     jest.advanceTimersByTime(3001);
     expect(tama.sleepLvl).toEqual(3);
+  });
+  test('hungerLvl should be 17 after 3001 milliseconds', () => { 
+    jest.advanceTimersByTime(3001);
+    expect(tama.hungerLvl).toEqual(17);
   });
 });
   
