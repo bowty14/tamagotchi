@@ -2,7 +2,7 @@
 
 #### JavaScript & jQuery Project for Epicodus, 04.08.2020
 
-#### By **Allison Mackey & Tyler Bowerman**
+#### By **Mai Cook & Tyler Bowerman**
 
 ## Description
 
@@ -12,10 +12,10 @@ A site to play a game. Practicing our use of jQuery & JavaScript.
 
 |   Behavior Description   |  Input Ex.   |        Output Ex.        |
 |------------------------------|--------------|--------------------------|
-| 1.  there is a Tamagotchi Object, which has  sleep,play,attention and food properties
-| 2.  create button that starts Tamagotchi and starts property intervals either (+ or -)
-| 3.  create functions that will add points back to hunger/attention/play properties
-| 4.  create alerts that pop up when hunger/attention and play properies start to get low
+| 1.[x]   there is a Tamagotchi Object, which has  sleep,play,attention and food properties.
+| 2.[]   create button that starts Tamagotchi and starts property intervals either (+ or -)
+| 3.[]   create functions that will add points back to hunger/attention/play properties
+| 4.[]   create alerts that pop up when hunger/attention and play properies start to get low
 | 5.  |  |  |
 | 6.  |  | 
 | 7. 
@@ -75,4 +75,4 @@ tama.setHunger()
 
 *This software is licensed under the MIT license*
 
-Copyright (c) 2020 **Allison Mackey & Tyler Bowerman**
+Copyright (c) 2020 **Mai Cook & Tyler Bowerman**
