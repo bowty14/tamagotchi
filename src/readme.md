@@ -13,10 +13,10 @@ A site to play a game. Practicing our use of jQuery & JavaScript.
 |   Behavior Description   |  Input Ex.   |        Output Ex.        |
 |------------------------------|--------------|--------------------------|
 | 1.[x]   there is a Tamagotchi Object, which has  sleep,play,attention and food properties.
-| 2.[]   create button that starts Tamagotchi and starts property intervals either (+ or -)
-| 3.[]   create functions that will add points back to hunger/attention/play properties
+| 2.[x]   create button that starts Tamagotchi and starts property intervals either (+ or -)
+| 3.[x]   create functions that will reset hunger/attention/play/sleep property intervals
 | 4.[]   create alerts that pop up when hunger/attention and play properies start to get low
-| 5.  |  |  |
+| 5.[]   create alert when hunger/attention hit zero that the tamagotchi has died.
 | 6.  |  | 
 | 7. 
 
