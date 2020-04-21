@@ -1,5 +1,5 @@
 import swal from 'sweetalert2';
-import "bootstrap";
+import './../src/bootstrap.css';
 import './../src/style.css';
 import $ from 'jquery';
 import { Tama } from './tama.js';
