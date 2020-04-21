@@ -1,5 +1,5 @@
+import swal from 'sweetalert2';
 import "bootstrap";
-import "bootstrap/dist/css/bootstrap.min.css";
 import './../src/style.css';
 import $ from 'jquery';
 import { Tama } from './tama.js';
@@ -27,26 +27,27 @@ $(document).ready(function () {
     console.log(tama);
     $("#resetS").click(function (event) {
       tama.resetS();
-      
-
       console.log(tama);
       event.preventDefault();
-      
+      swal.fire("you have put your Tamagotchi to sleep.");
     });
     $("#resetH").click(function(event){
       tama.resetH();
       console.log(tama);
+      swal.fire("you have feed your Tamagotchi");
       event.preventDefault();
       
     });
     $("#resetA").click(function(event){
       tama.resetA();
       console.log(tama);
+      swal.fire("your Tamagotchi appreciates the attention!");
       event.preventDefault();
     });
     $("#resetP").click(function(event){
       tama.resetP();
       console.log(tama);
+      swal.fire("you have thrown a ball for your Tamagotchi");
       event.preventDefault();
     });
     //  $(#stats).html(tama);
