@@ -17,8 +17,8 @@ A site to play a game. Practicing our use of jQuery & JavaScript.
 | 3.[x]   create functions that will reset hunger/attention/play/sleep property intervals
 | 4.[x]   create buttons that reset the property values.
 | 5.[x]   create swal alerts to the user when they press the feed/play/attention/sleep buttons
-| 5.[]   create alerts that pop up when hunger/attention properies start to get low
-| 6.[]   create alert when hunger/attention hit zero that the tamagotchi has died.
+| 5.[x]   create alerts that pop up when hunger/attention properies start to get low
+| 6.[x]   create alert when hunger/attention hit zero that the tamagotchi has died.
 | 7.[]
 | 8.[]
 
