@@ -10,7 +10,7 @@ export class Tama {
   setSleep() {
     setInterval(() => {
       this.sleepLvl++;
-    }, 1000);
+    }, 900000);
     
   }
   resetS() {
@@ -19,7 +19,7 @@ export class Tama {
   setHunger() {
     setInterval(() => {
       this.hungerLvl--;
-    }, 1000);
+    }, 600000);
   }
   resetH() {
     this.hungerLvl = 20;
@@ -27,7 +27,7 @@ export class Tama {
   setAttention() {
     setInterval(() => {
       this.attentionLvl--;
-    },1000);
+    },300000);
   }
   resetA() {
     this.attentionLvl = 20;
@@ -35,12 +35,13 @@ export class Tama {
   setPlay() {
     setInterval(() => {
       this.playLvl--;
-    },1000);
+    },240000);
   }
   resetP() {
     this.playLvl = 20;
   }
   
+
 
 }
 

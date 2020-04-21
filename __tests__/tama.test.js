@@ -23,20 +23,20 @@ describe("Tama", () => {
     expect(tama.hungerLvl).toEqual(20);
 //   tama = new Tama ();
     })
-  test('sleepLvl should be 3 after 3001 milliseconds', () => {
-    jest.advanceTimersByTime(60001);
+  test('sleepLvl should be 1 after 3001 milliseconds', () => {
+    jest.advanceTimersByTime(900001);
     expect(tama.sleepLvl).toEqual(1);
   });
-  test('hungerLvl should be 17 after 3001 milliseconds', () => { 
-    jest.advanceTimersByTime(60001);
+  test('hungerLvl should be 19 after 3001 milliseconds', () => { 
+    jest.advanceTimersByTime(600001);
     expect(tama.hungerLvl).toEqual(19);
   });
-  test('attentionLvl should be 17 after 3001 milliseconds', () => {
-    jest.advanceTimersByTime(60001);
+  test('attentionLvl should be 19 after 3001 milliseconds', () => {
+    jest.advanceTimersByTime(300001);
     expect(tama.attentionLvl).toEqual(19);
   });
-  test('playLvl should be 17 after 3001 milliseconds', () => {
-    jest.advanceTimersByTime(60001);
+  test('playLvl should be 19 after 3001 milliseconds', () => {
+    jest.advanceTimersByTime(240001);
     expect(tama.playLvl).toEqual(19);
   });
   test('reset, resets the value of the property play after the set interval',() => {
