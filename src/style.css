@@ -1,3 +1,13 @@
-#resetS {
+
+#resetS{
+  display: none;
+}
+#resetH{
+  display: none;
+}
+#resetA{
+  display: none;
+}
+#resetP{
   display: none;
 }

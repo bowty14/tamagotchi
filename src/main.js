@@ -13,17 +13,24 @@ $(document).ready(function () {
     tama.setAttention();
     tama.setPlay();
     $("#play").hide();
+    $("#intro").hide();
     $("#resetS").show();
+    $("#resetH").show();
+    $("#resetA").show();
+    $("#resetP").show();
     // Object.entries --> array of key/value pair arrays
     // Object.keys --> array of keys
     // Object.values --> array of the values
     $("#stats").html("");
     Object.entries(tama).forEach((keyValuePair) => {
       $("#stats").append("<p id='" + keyValuePair[0] + "'>" + keyValuePair[0] + ": " + keyValuePair[1] + "</p>");
-    
-      // $("#stats").html(tama);
+      swal.fire("You're Tamagotchi is alive! Make sure to give it food and attention often otherwise it won't be very happy with you!");
+      if (tama.hungerLvl === 15){
+      swal.fire("your tamagotchi is hungry!");
+    }
       event.preventDefault();
     });
+    
     console.log(tama);
     $("#resetS").click(function (event) {
       tama.resetS();
@@ -50,7 +57,10 @@ $(document).ready(function () {
       swal.fire("you have thrown a ball for your Tamagotchi");
       event.preventDefault();
     });
-    //  $(#stats).html(tama);
   });
-
 });
+
+
+// Object.entries(tama).forEach((keyValuePair) => {
+//   $("#stats").append("<p id='" + keyValuePair[0] + "'>" + keyValuePair[0] + ": " + keyValuePair[1] + "</p>");
+//   swal.fire("You're Tamagotchi is alive! Make sure to give it food and attention often otherwise it won't be very happy with you!");

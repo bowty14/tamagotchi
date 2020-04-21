@@ -19,7 +19,7 @@ export class Tama {
   setHunger() {
     setInterval(() => {
       this.hungerLvl--;
-    }, 60000);
+    }, 1000);
   }
   resetH() {
     this.hungerLvl = 20;
@@ -40,4 +40,7 @@ export class Tama {
   resetP() {
     this.playLvl = 20;
   }
+  
+
 }
+
